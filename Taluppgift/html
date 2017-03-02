@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Taluppgift</title>
+		<link href="taluppgift.css" rel="stylesheet" type="text/css">
+	</head>
+
+    <body>
+        <p><b id="tal"> Välkommen till min sida</b></p>
+        <input type='button' onClick='ändra()' value='skriv in tal'/>
+        <script language="javascript">
+            function ändra()
+            {
+                var siffra = prompt("skriv in ett tal","Skriv tal här");
+				var tal = parseInt(siffra);
+                if(isNaN(tal))
+                {
+                    alert("Skriv in ett tal inte en bokstav/ord/mening");
+					document.getElementById('tal').innerHTML = "Skriv in ett tal/siffra!!";
+                }
+                else
+                {
+                    document.getElementById('tal').innerHTML = "Siffra du skrev in var: " + tal;
+                }
+            }
+        </script>
+    </body>
+</html>
