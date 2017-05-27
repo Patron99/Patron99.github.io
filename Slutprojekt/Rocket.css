@@ -597,9 +597,10 @@ iframe{
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0; /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -636,9 +637,10 @@ However, delay the fade out process for 2.5 seconds */
 	
 }#snackbar2 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0; /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -677,9 +679,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar3 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0; /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -718,9 +721,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar4 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0; /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -759,9 +763,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar5 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -800,9 +805,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar6 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -841,9 +847,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar7 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -882,9 +889,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar8 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -923,9 +931,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar9 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -964,9 +973,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar10 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1005,9 +1015,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar11 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1046,9 +1057,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar12{
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1087,9 +1099,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar13 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1128,9 +1141,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar14 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1169,9 +1183,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar15 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1210,9 +1225,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar16 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1251,9 +1267,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar17 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1292,9 +1309,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar18 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1333,9 +1351,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar19 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1374,9 +1393,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar20 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1415,9 +1435,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar21 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1456,9 +1477,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar22 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1497,9 +1519,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar23 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1538,9 +1561,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar24 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1579,9 +1603,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar25 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1620,9 +1645,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar25 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1661,9 +1687,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar26 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1702,9 +1729,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar27 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1743,9 +1771,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar28 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1784,9 +1813,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar29 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1825,9 +1855,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar30 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1866,9 +1897,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar31 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -1907,9 +1939,10 @@ However, delay the fade out process for 2.5 seconds */
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar32 {
     visibility: hidden; /* Hidden by default. Visible on click */
+    max-width: 350px;
     min-width: 250px; /* Set a default minimum width */
-    margin-right: 35%; /* Divide value of min-width by 2 */
-	margin-left:10%;
+    margin-right: 0;  /* Divide value of min-width by 2 */
+	margin-left:0;
     background-color: #333; /* Black background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
@@ -2073,16 +2106,21 @@ li a:focus {
     aside{
         visibility: hidden;
     }
+    .start{
+        font-family: serif;
+    }
     nav{
         visibility: hidden;
     }
     article{
+        font-family: serif;
         margin-left: 20%;
     }
     #toggle{
         visibility: visible;
     }
     #CinemaArticle{
+        font-family: serif;
         font-size: 20px;
     }
     #menu{
@@ -2101,26 +2139,35 @@ li a:focus {
         width:280px;
     }
     .ArticleRanks{
+        font-family: serif;
         height: 130%;
         margin-left: 20%;
         margin-right: 0;
     }
     .SectionRanks{
+        font-family: serif;
         height: 130%;
         margin-left: 6.5%;
     }
+    .MainArticleRanks{
+        font-family: serif;
+    }
     .SectionGarage{
+        font-family: serif;
         width: 100%;
         height: 1600px;
     }
     .numbertext {
+        font-family: serif;
         margin-left: 380px;
     }
     .numbertext2 {
-        margin-left: 370px;
+        font-family: serif;
+        margin-left: 380px;
     }
     .numbertext3 {
-        margin-left: 370px;
+        font-family: serif;
+        margin-left: 380px;
     }
     .prev, .next{
         width: 10px;
@@ -2141,6 +2188,9 @@ li a:focus {
         margin-left:-110px;
         margin-top:-40px;
         
+    }
+    .text{
+        font-family: serif;
     }
 }
 @media screen and (max-width: 980px) {
@@ -2181,20 +2231,22 @@ li a:focus {
         margin-left: 380px;
     }
     .numbertext2 {
-        margin-left: 370px;
+        margin-left: 380px;
     }
     .numbertext3 {
-        margin-left: 370px;
+        margin-left: 380px;
     }
     .prev, .next{
         margin-left:-100px;
         margin-right:150px;
     }
     .prev2, .next2{
-        margin-right:170px;
+        margin-left:-100px;
+        margin-right:150px;
     }
     .prev3, .next3{
-        margin-right:170px;
+        margin-left:-100px;
+        margin-right:150px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -2219,14 +2271,22 @@ li a:focus {
         margin-left:-110px;
         margin-right:165px;
     }
+    .prev2, .next2{
+        margin-left:-110px;
+        margin-right:165px;
+    }
+    .prev3, .next3{
+        margin-left:-110px;
+        margin-right:165px;
+    }
     .numbertext {
-        margin-left: 280px;
+        margin-left: 290px;
     }
     .numbertext2 {
-        margin-left: 280px;
+        margin-left: 290px;
     }
     .numbertext3 {
-        margin-left: 280px;
+        margin-left: 290px;
     }
 }
 @media screen and (max-width: 760px) {
@@ -2301,25 +2361,25 @@ li a:focus {
         margin-right: 10%;
     }
     .slideshow-container {
-        margin-left: 2%;
+        margin-left: 10%;
     }
     .slideshow-container2 {
-        margin-left: 2%;
+        margin-left: 10%;
     }
     .slideshow-container3 {
-        margin-left: 2%;
+        margin-left: 10%;
     }
     .SectionGarage img{
         width: 200px;
     }
     .text{
-        width: 80%;
+        width: 85%;
     }
     .text2{
-        width: 80%;
+        width: 85%;
     }
     .text3{
-        width: 80%;
+        width: 85%;
     }
     .dot {
         width: 10px;
@@ -2334,13 +2394,13 @@ li a:focus {
         height: 10px;
     }
     .numbertext {
-        margin-left: 120px;
+        margin-left: 110px;
     }
     .numbertext2 {
-        margin-left: 100px;
+        margin-left: 110px;
     }
     .numbertext3 {
-        margin-left: 100px;
+        margin-left: 110px;
     }
     .prev, .next{
         width: 10px;
@@ -2351,14 +2411,14 @@ li a:focus {
     .prev2, .next2{
         width: 10px;
         margin-top:-76px;
-        margin-left:-1px;
-        margin-right:58px;
+        margin-left:10px;
+        margin-right:45px;
     }
     .prev3, .next3{
         width: 10px;
         margin-top:-76px;
-        margin-left:-1px;
-        margin-right:58px;
+        margin-left:10px;
+        margin-right:45px;
     }
 }
 @media screen and (max-width: 412px) {
@@ -2383,20 +2443,19 @@ li a:focus {
         width: 110%;
     }
     .prev, .next{
-        width: 10px;
         margin-top:-87px;
-        margin-left:20px;
-        margin-right:80px;
+        margin-left:0;
+        margin-right:60px;
     }
     .prev2, .next2{
-        margin-top:-86px;
-        margin-left:-1px;
-        margin-right:94px;
+        margin-top:-87px;
+        margin-left:0;
+        margin-right:60px;
     }
     .prev3, .next3{
-        margin-top:-86px;
-        margin-left:-1px;
-        margin-right:94px;
+        margin-top:-87px;
+        margin-left:0;
+        margin-right:60px;
     }
     .dot {
         width: 7px;
@@ -2411,16 +2470,16 @@ li a:focus {
         height: 7px;
     }
     .text{
+        margin-left: -5px;
         font-size: 12px;
-        margin-left: -5%;
     }
     .text2{
+        margin-left: -5px;
         font-size: 12px;
-        margin-left: -10%;
     }
     .text3{
+        margin-left: -5px;
         font-size: 12px;
-        margin-left: -10%;
     }
     .numbertext {
         font-size: 10px;
@@ -2428,11 +2487,11 @@ li a:focus {
     }
     .numbertext2 {
         font-size: 10px;
-        margin-left: 90px;
+        margin-left: 110px;
     }
     .numbertext3 {
         font-size: 10px;
-        margin-left: 95px;
+        margin-left: 110px;
     }
     .SectionRanks img{
         height:auto;
@@ -2442,32 +2501,41 @@ li a:focus {
         height:auto;
         width:90px;
     }
+    .slideshow-container {
+        margin-left:15%;
+    }
+    .slideshow-container2 {
+        margin-left: 15%;
+    }
+    .slideshow-container3 {
+        margin-left: 15%;
+    }
     
 }
 @media screen and (max-width: 360px) {
-.prev, .next{
-    margin-top:-87px;
-    margin-left:20px;
-    margin-right:60px;
-}
-.prev2, .next2{
-    margin-top:-86px;
-    margin-left:-1px;
-    margin-right:85px;
-}
-.prev3, .next3{
-    margin-top:-86px;
-    margin-left:-1px;
-    margin-right:85px;
-}
+    .prev, .next{
+        margin-top:-87px;
+        margin-left:0;
+        margin-right:50px;
+    }
+    .prev2, .next2{
+        margin-top:-87px;
+        margin-left:0;
+        margin-right:50px;
+    }
+    .prev3, .next3{
+        margin-top:-87px;
+        margin-left:0;
+        margin-right:50px;
+    }
     .slideshow-container {
-        margin-left: 2%;
+        margin-left: 15%;
     }
     .slideshow-container2 {
-        margin-left: 2%;
+        margin-left: 15%;
     }
     .slideshow-container3 {
-        margin-left: 2%;
+        margin-left: 15%;
     }
 }
 @media screen and (max-width: 320px) {
@@ -2517,17 +2585,16 @@ li a:focus {
         width: 100%;
     }
     .text{
-        margin-top: 0;
+        margin-left: -33%;
         font-size: 9px;
-        margin-left: -20%;
     }
     .text2{
-        font-size: 10px;
-        margin-left: -15%;
+        margin-left: -20%;
+        font-size: 9px;
     }
     .text3{
-        font-size: 10px;
-        margin-left: -15%;
+        margin-left: -20%;
+        font-size: 9px;
     }
     .prev, .next{
         margin-top:-122px;
@@ -2537,24 +2604,24 @@ li a:focus {
     .prev2, .next2{
         margin-top:-122px;
         margin-left:-1px;
-        margin-right:65px;
+        margin-right:35px;
     }
     .prev3, .next3{
         margin-top:-122px;
         margin-left:-1px;
-        margin-right:65px;
+        margin-right:35px;
     }
     .numbertext {
-        font-size: 10px;
-        margin-left: 110px;
+        font-size: 9px;
+        margin-left: 90px;
     }
     .numbertext2 {
-        font-size: 10px;
-        margin-left: 70px;
+        font-size: 9px;
+        margin-left: 80px;
     }
     .numbertext3 {
-        font-size: 10px;
-        margin-left: 70px;
+        font-size: 9px;
+        margin-left: 80px;
     }
 	
 }
