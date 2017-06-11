@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+    	<link href="Rocket.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<title>Rocket Ranks</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+        <div id="boxRanks">
+            <div id="mobilmeny">
+                <a href="#menu" id="toggle"><span></span></a>
+
+                <div id="menu">
+                  <ul>
+                    <li><a href="index.html">-Home</a></li>
+                    <li><a href="Rocket_League_Cinema.html">-Cinema</a></li>
+                    <li><a href="Rocket_League_Ranks.html">-Ranks</a></li>
+                    <li><a href="Rocket_League_Garage.html">-Garage</a></li>
+                    <li><a href="https://www.g2a.com/rocket-league-steam-cd-key-global.html" target="_blank">-Buy on G2A</a></li>
+                    <li><a href="http://store.steampowered.com/app/252950/" target="_blank">-Buy on Steam</a></li>
+                  </ul>
+                </div>
+                    <script>
+                        var theToggle = document.getElementById('toggle');
+
+                        // based on Todd Motto functions
+                        // https://toddmotto.com/labs/reusable-js/
+
+                        // hasClass
+                        function hasClass(elem, className) {
+                            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+                        }
+                        // addClass
+                        function addClass(elem, className) {
+                            if (!hasClass(elem, className)) {
+                                elem.className += ' ' + className;
+                            }
+                        }
+                        // removeClass
+                        function removeClass(elem, className) {
+                            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+                            if (hasClass(elem, className)) {
+                                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+                                    newClass = newClass.replace(' ' + className + ' ', ' ');
+                                }
+                                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+                            }
+                        }
+                        // toggleClass
+                        function toggleClass(elem, className) {
+                            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+                            if (hasClass(elem, className)) {
+                                while (newClass.indexOf(" " + className + " ") >= 0 ) {
+                                    newClass = newClass.replace( " " + className + " " , " " );
+                                }
+                                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+                            } else {
+                                elem.className += ' ' + className;
+                            }
+                        }
+
+                        theToggle.onclick = function() {
+                           toggleClass(this, 'on');
+                           return false;
+                        }
+                    </script>
+            </div>
+            <aside>
+          		<a href="index.html">
+          		    <div id="home_button"></div>
+                </a>
+                <a href="Rocket_League_Cinema.html">
+                    <div id="Cinema_button"></div>
+                </a>
+                <a href="Rocket_League_Ranks.html">
+                    <div id="Ranks_button"></div>
+                </a>
+                <a href="Rocket_League_Garage.html">
+                    <div id="Garage_button"></div>
+                </a>
+            </aside>
+            <nav>
+            	<a href="https://www.g2a.com/rocket-league-steam-cd-key-global.html" target="_blank">
+          		    <div id="G2a_button"></div>
+                </a>
+                <a href="http://store.steampowered.com/app/252950/" target="_blank">
+                    <div id="Steam_button"></div>
+                </a>
+            </nav>
+            <article class="MainArticleRanks">
+                <h1>How does the ranking system work?</h1>
+                <p>After each season has ended you start of unranked. You need to play 10 ranked matches to get your new rank.</p>
+                <p>In each different rank there are 4 different divisions. Once you win a ranked match you rank up one division, once you loose a ranked match you de-rank(go down) one diviosion. When you are in the fourth division of a rank and win that match you will rank up to the next rank. If you are in the first division and loose a match you will de-rank one rank.</p
+                ><p>This system is the same for every rank.</p>
+                <p>Tho this ranking system is for today a.k.a Season 4. Season 3:s ranking system and before was different. They had 5 different divisions in a rank, and you didn't always rank up a division when you won, neither de-rank when you lost. It was more of a "random" progress. Sometimes when you won u rank up and sometimes when you lost you de-ranked, you can see it as you had more chances to loose before de-ranking but at the same time it was harder for you to rank up.</p>
+                <p>Season 1 had it's own little ranking system but Season 2 and 3 had the same ranking system. Now in season 4 it has changed alot!</p>
+                <p>Today there are 4 different ways of playing ranked. Solo Duel, Doubles, Solo Standard and Standard. Whats cool about these different rankings are that each player has separate progression for each playlist (that means that you can be unranked in Solo Duel, Silver in Doubles and Champion in Standard.</p>
+                <p><u><b>Solo Duel</b></u> is the most skilled based ranked-mode. Here you are all by youself vs another player. In solo you can't rely on your teammate helping you out if you fail, if you fail here you will probably pay for it by your opponent making a goal. Therefor this gamemode takes much concentration and vary much skill.</p>
+                <p><u><b>Doubles</b></u> are the most played ranked-mode in the game. This is very popular because now you can play with a friend wich ca help you get better at the game and help you if you fail. Here it's still much skill needed but now you have a friend or a stranger that can help you out!</p>
+                <p><u><b>Solo Standard</b></u> is probably the least played ranked-mode. Here you can't choose your teammates, here you get put in a team of 3 randomised depending on your rank. Since you can't choose your teammates and need to co-oporate with complete strangers this is not so fun to play for most people.</p>
+            <p><u><b>Standard</b></u> is a very popular ranked-mode. Here you can choose your teammates and play with whoever you want. Since you can choose your teammates this is popular when you can get competetive with your friends.</p>
+        </article>
+            <article class="ArticleRanks">
+            		<h1>Last Season</h1>
+                    <img src="Rocketleageseason3ranks.jpg" alt="Season3">
+                    <h2>Rewards from Season</h2>
+                    <img src="season3rewards.jpg" id="Rewards" alt="Rewards">
+                    <h2> April Fools </h2>
+                    <p> Unfortuanally they didn't add some cool april fools prank ranks too the game.</p>
+                    <p>That was just an idea they got for this year and maybe it will be added in the future aswell as some new ranks for cristmas and more</p>
+            </article>
+            <section class="SectionRanks">
+            		<h1>This Season</h1>
+                    <img src="Season_4_ranks.jpg" alt="ranks">
+                    <h2>Rewards from this Season</h2>
+                    <p>Unfortuanally they haven't been any realeses on what rewards you will get after this seasen ended.</p><p> Probably because it's just started.</p>
+                    <h2> April Fools </h2>
+                    <img src="rl_april_fools_2017.jpg" alt="april fools">
+                    <p> On April first this year they added "new" ranks to the game wich just was a troll but still pretty cool.</p>
+                    
+            </section>
+        </div>
+	</body>
+</html>
