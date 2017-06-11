@@ -1114,7 +1114,7 @@ li a:focus {
 }
 @media screen and (max-width: 414px) {
     .snackbar{
-        margin-right: 101px;
+        margin-right: 105px;
         margin-left: -40px;
     }
     .text{
