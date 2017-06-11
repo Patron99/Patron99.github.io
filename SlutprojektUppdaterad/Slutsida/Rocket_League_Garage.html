@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+	<head>
+    	<link href="Rocket.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<title>Rocket Garage</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+        <div id="boxGarage">
+            <div id="mobilmeny">
+                <a href="#menu" id="toggle"><span></span></a>
+
+                <div id="menu">
+                  <ul>
+                    <li><a href="index.html">-Home</a></li>
+                    <li><a href="Rocket_League_Cinema.html">-Cinema</a></li>
+                    <li><a href="Rocket_League_Ranks.html">-Ranks</a></li>
+                    <li><a href="Rocket_League_Garage.html">-Garage</a></li>
+                    <li><a href="https://www.g2a.com/rocket-league-steam-cd-key-global.html" target="_blank">-Buy on G2A</a></li>
+                    <li><a href="http://store.steampowered.com/app/252950/" target="_blank">-Buy on Steam</a></li>
+                  </ul>
+                </div>
+                    <script>
+                        var theToggle = document.getElementById('toggle');
+
+                        function hasClass(elem, className) {
+                            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+                        }
+                        function addClass(elem, className) {
+                            if (!hasClass(elem, className)) {
+                                elem.className += ' ' + className;
+                            }
+                        }
+                        function removeClass(elem, className) {
+                            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+                            if (hasClass(elem, className)) {
+                                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+                                    newClass = newClass.replace(' ' + className + ' ', ' ');
+                                }
+                                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+                            }
+                        }
+                        function toggleClass(elem, className) {
+                            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+                            if (hasClass(elem, className)) {
+                                while (newClass.indexOf(" " + className + " ") >= 0 ) {
+                                    newClass = newClass.replace( " " + className + " " , " " );
+                                }
+                                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+                            } else {
+                                elem.className += ' ' + className;
+                            }
+                        }
+
+                        theToggle.onclick = function() {
+                           toggleClass(this, 'on');
+                           return false;
+                        }
+                    </script>
+            </div>
+            <aside>
+          		<a href="index.html">
+          		    <div id="home_button"></div>
+                </a>
+                <a href="Rocket_League_Cinema.html">
+                    <div id="Cinema_button"></div>
+                </a>
+                <a href="Rocket_League_Ranks.html">
+                    <div id="Ranks_button"></div>
+                </a>
+                <a href="Rocket_League_Garage.html">
+                    <div id="Garage_button"></div>
+                </a>
+            </aside>
+            <nav>
+            	<a href="https://www.g2a.com/rocket-league-steam-cd-key-global.html" target="_blank">
+          		    <div id="G2a_button"></div>
+                </a>
+                <a href="http://store.steampowered.com/app/252950/" target="_blank">
+                    <div id="Steam_button"></div>
+                </a>
+            </nav>
+            <article class="ArticleGarage">
+
+				
+            	<section class="SectionGarage">
+
+                
+					<div class="slideshow-container">
+                          <div class="mySlides fade">
+                            <div class="numbertext">Import 1 / 7</div>
+                            <img src="red-car.jpg" alt="Breakout Type-S">
+                            <div class="text">
+                                <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>Breakout Type-S is another version of the common car Breakout.</p><p> Breakout Type-S is one of the most played cars in ranked matches, mostly because of it's good hitboxes and low weight.</p><p> Because of it's low weight it is easy to control while flying. The higher rank you are the more you have to play in the air and therefor is the Breakout Type-S so good for ranked.</p></div></div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">Import 2 / 7</div>
+                                <img src="red-cars1.jpg" alt="Octane ZSR" >
+                                <div class="text"> <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>The Octane ZSR is another version of the common car Octane.</p><p>Octane ZSR is very popular to play with. It is seen everywhere in the game but not as much in the higher ranks.</p><p> The Octane ZSR has very light weight and is therefor good for flying. It's hitbox is okay but definitely not the best. Therefor its not very popular when it really matters.</p></div></div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">Import 3 / 7</div>
+                                <img src="red-cars2.jpg" alt="Dominus GT" >
+                                <div class="text"> <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>The car Dominus GT is another version of the common car Dominus.</p><p>Dominus GT is one of the most played car in the intire game. Due to it's cool looks, low car weight and good hitboxes it is very popular in the community.</p><p> Since the Dominus GT has so low weight it's very good for flying. Since there is much airfights in higher ranks it's very poluar even in the "pros" perspective.</p></div></div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">Import 4 / 7</div>
+                                <img src="red-cars3.jpg" alt="Road Hog XL" >
+                                <div class="text"> <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>The car Road Hog XL is another version of the common car Road Hog.</p><p>The Road Hog XL is played so much in ranked games since it is very heavy.</p><p> Because the car is so heavy it does not have as good acceleration as the other cars and is hard controlled while in the air.</p><p> Since the car have all these disabilities it isn't played that much in ranked but it's a fun car to play in normal games and just have fun with since it is so easy to blow up enemies with.</p></div></div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">Import 5 / 7</div>
+                                <img src="red-cars4.jpg" alt="Takumi RX-T" >
+                                <div class="text"> <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>Takumi RX-T is another version of the comon car Takumi.</p><p>The Takumi RX-T is not seen in the game as much as other Import cars.</p><p>There are many other import cars wich have the same abilities as the Takumi RX-T such as light weight and good hitboxes. The other cars also known as Breakout Type-S and Dominus GT has better hitboxes than the Takumi RX-T and in the communities eyes better looks, therefor this car is not seen as much as the others.</p></div></div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">Import 6 / 7</div>
+                                <img src="red-cars5.jpg" alt="X-Devil MK2" >
+                                <div class="text"> <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>X-Devil MK2 is another version of the common car X-Devil.</p><p> The X-Devil MK2 is not so popular for higher ranks since it does not have the best hitboxes in the game. In lower ranks and in normal games id does have higher popularity since it's a very good annd cool looking car.</p><p>The car has decent wight and is pretty easy to contol in the air.</p></div></div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">Import 7 / 7</div>
+                                <img src="red-car6.PNG" alt="Endo" >
+                                <div class="text"> <button onclick="myFunction(this)" class="Information">Information</button>
+                                <div class="snackbar"><p>Endo is the newest car in the game that can be found in the new Turbo crate.</p><p> Since it is so new, ofcourse it's going to be popular. Everyone want to try it out as soon as they can get thier hands on it.</p><p> Pros still stick to the Dominus GT and Breakout Type-S, but i do think this car can become very popular in the higher ranks, but it's going to take some tim e for the pros to switch because it's nice to stick to the known cars</p></div></div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+
+
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span>
+                          <span class="dot" onclick="currentSlide(4)"></span>
+                          <span class="dot" onclick="currentSlide(5)"></span>
+                          <span class="dot" onclick="currentSlide(6)"></span>
+                          <span class="dot" onclick="currentSlide(7)"></span>    
+                        </div> 
+                        <script>
+                            var slideIndex = 1;
+                            showSlides(slideIndex);
+
+                            function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                            }
+
+                            function currentSlide(n) {
+                              showSlides(slideIndex = n);
+                            }
+
+                            function showSlides(n) {
+                              var i;
+                              var slides = document.getElementsByClassName("mySlides");
+                              var dots = document.getElementsByClassName("dot");
+                              if (n > slides.length) {slideIndex = 1} 
+                              if (n < 1) {slideIndex = slides.length}
+                              for (i = 0; i < slides.length; i++) {
+                                  slides[i].style.display = "none"; 
+                              }
+                              for (i = 0; i < dots.length; i++) {
+                                  dots[i].className = dots[i].className.replace(" active", "");
+                              }
+                              slides[slideIndex-1].style.display = "block"; 
+                              dots[slideIndex-1].className += " active";
+                            }
+                        </script>   
+
+					<div class="slideshow-container2">
+                    
+                      	<div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 1 / 14</div>
+                            <img src="green-car1.jpg" alt="Vulcan" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Vulcan got pretty cool and unique looks. These looks are the players not to see since it's so rare for a rocket league car to have these looks.</p></div></div>
+                        </div>
+                        
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 2 / 14</div>
+                            <img src="green-car2.jpg" alt="Bone Shaker" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Bone Shaker has got the looks wich have never been seen in Rocket League before. It's very different and unique</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 3 / 14</div>
+                            <img src="grönbil.PNG" alt="Ice Charger" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Ice Charger has pretty normal looks if you look at the majority of the Rocket League cars</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 4 / 14</div>
+                            <img src="green-car3.jpg" alt="Delorean Time Machine" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Delorean Time Machine is inspired by the "Delorean Time Machine" wich is featured in the movie "Back To The Future"</p></div></div>
+                        </div>
+                        
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 5 / 14</div>
+                            <img src="green-car4.jpg" alt="Grog" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The car Grog is very different from the other cars in the matter of looks. It is very different has the look has never been seen before.</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 6 / 14</div>
+                            <img src="green-car5.jpg" alt="Ripper" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Ripper got some cool features added to the looks. The car looks more like a fighter car instead of a football car</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 7 / 14</div>
+                            <img src="green-car6.jpg" alt="Batmobile" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Batmobile is very cool and interesting. It is inspired by the "Batmobile" from the movie series batman.</p></div></div>
+                        </div>
+                        
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 8 / 14</div>
+                            <img src="green-car7.jpg" alt="Aftershock" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Aftershock is very unique. It looks liek it's good for flying since it got wings haha.</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 9 / 14</div>
+                            <img src="green-car8.jpg" alt="Proteus" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Proteus is very diffrent. It's very fat and big. hard controlled and slow acceleration since it's so big.</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 10 / 14</div>
+                            <img src="green-car9.jpg" alt="Triton" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Triton is very unique. It looks like a future car and maybe it is.</p></div></div>
+                        </div>
+                        
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 11 / 14</div>
+                            <img src="green-car10.jpg" alt="Marauder" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Marauder is more of an ofroad car. It looks like it can be featured in the movie series "Jurassic park".</p></div></div>
+                        </div>
+                    
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 12 / 14</div>
+                            <img src="green-car11.jpg" alt="Masamune" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Masamune is another car that looks like it is from the future. Very cool looks.</p></div></div>
+                        </div>
+                        
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 13 / 14</div>
+                            <img src="green-car12.jpg" alt="Esper" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Esper is very unique and different. it is very smal and thin. It has got weird looks aswell as weird hitbozes since it has got such weird shapes.</p></div></div>
+                        </div>
+                          
+                        <div class="mySlides2 fade2">
+                            <div class="numbertext2">Premium 14 / 14</div>
+                            <img src="green-car13.PNG" alt="Twin Mill III" >
+                            <div class="text2"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Twin Mill III is the newest car in the newest DLC. It is inspired by a car from the "Hotwheels" collection.</p></div></div>
+                        </div>
+                    
+                      	<a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+                      	<a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+					</div>
+                    
+                    
+                    <div style="text-align:center">
+                      <span class="dot2" onclick="currentSlide2(1)"></span> 
+                      <span class="dot2" onclick="currentSlide2(2)"></span> 
+                      <span class="dot2" onclick="currentSlide2(3)"></span>
+                      <span class="dot2" onclick="currentSlide2(4)"></span> 
+                      <span class="dot2" onclick="currentSlide2(5)"></span> 
+                      <span class="dot2" onclick="currentSlide2(6)"></span>
+                      <span class="dot2" onclick="currentSlide2(7)"></span> 
+                      <span class="dot2" onclick="currentSlide2(8)"></span> 
+                      <span class="dot2" onclick="currentSlide2(9)"></span>
+                      <span class="dot2" onclick="currentSlide2(10)"></span> 
+                      <span class="dot2" onclick="currentSlide2(11)"></span> 
+                      <span class="dot2" onclick="currentSlide2(12)"></span>  
+                      <span class="dot2" onclick="currentSlide2(13)"></span>  
+                      <span class="dot2" onclick="currentSlide2(14)"></span>
+                    </div>
+                    <script>
+                        var slideIndex2 = 1;
+                        showSlides2(slideIndex2);
+
+                        function plusSlides2(n) {
+                        showSlides2(slideIndex2 += n);
+                        }
+
+                        function currentSlide2(n) {
+                          showSlides2(slideIndex2 = n);
+                        }
+
+                        function showSlides2(n) {
+                          var i;
+                          var slides2 = document.getElementsByClassName("mySlides2");
+                          var dots2 = document.getElementsByClassName("dot2");
+                          if (n > slides2.length) {slideIndex2 = 1} 
+                          if (n < 1) {slideIndex2 = slides2.length}
+                          for (i = 0; i < slides2.length; i++) {
+                              slides2[i].style.display = "none"; 
+                          }
+                          for (i = 0; i < dots2.length; i++) {
+                              dots2[i].className = dots2[i].className.replace(" active2", "");
+                          }
+                          slides2[slideIndex2-1].style.display = "block"; 
+                          dots2[slideIndex2-1].className += " active2";
+                        }
+					</script>
+                    
+                    <div class="slideshow-container3">
+                    
+                    	<div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 1 / 11</div>
+                            <img src="black-car.jpg" alt="Octane" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Octane car is the original version of the Import car Octane ZSR.</p><p> This car is not used that much because you can get a better and cooler version in cases (Octane ZSR) that is used so much more than this car.</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 2 / 11</div>
+                            <img src="black-car1.jpg" alt="Sweet Tooth" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Sweet Tooth is a special car that only came in a expansion for the PS4.</p><p> Still on PS4 it's not played that much other than to show of for the PC players that can't get the car</p><p> The car is very heavy and not easily controlled wich is why it's not very popular</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 3 / 11</div>
+                            <img src="black-car2.jpg" alt="Backfire" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The car Backfire is very cool looking car in my perspective but not played that much because of it's shitty hitboxes</p><p>Since there are better cars with better controlling and hitboxes those are more played</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 4 / 11</div>
+                            <img src="black-car3.jpg" alt="Breakout" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Breakout car is the original version of the import car Breakout Type-S</p><p>Since this car is the less cooler version of the two this car is unfortunally played alot less then the other</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 5 / 11</div>
+                            <img src="black-car4.jpg" alt="Gizmo" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Gizmo is a very weird looking car with weird hitboxes</p><p> This car is not popular in the community at all since it's discousting looks, weird features such as hitboxes and weight</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 6 / 11</div>
+                            <img src="black-car5.jpg" alt="Hotshot" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The car Hotshot is a very unique and cool looking car</p><p>Since it is a common/free car many believe that it's not as cool to play with as another car that everyone doesn't have, therefor it's not so popular</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 7 / 11</div>
+                            <img src="black-car6.jpg" alt="Merc" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>The Merc car is very, very big and heavy. Therefor the car is not easily controlled in the air, and takes long before maximum speed is reach</p><p>Since the car has got all of these negative features it's not played so much</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 8 / 11</div>
+                            <img src="black-car7.jpg" alt="Paladin" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Paladin is probably one of the most played "common" cars since it got very good looks with good hitboxes and weight</p><p>With these good and unique looks the car attracts alot of players to play with it</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 9 / 11</div>
+                            <img src="black-car8.jpg" alt="Road Hog" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Road Hog is the original car of the import car Road Hog XL</p><p> Since Road Hog has got another improved and cooler version the original Road Hog is not used that much</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 10 / 11</div>
+                            <img src="black-car9.jpg" alt="Venom" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>Venom is a very weird car. It has very weird hitboxes and odd looking.</p><p> These features make the Venom car not so played by the community</p></div></div>
+                        </div>
+                        <div class="mySlides3 fade3">
+                            <div class="numbertext3">Common 11 / 11</div>
+                            <img src="black-car10.jpg" alt="X-Devil" >
+                            <div class="text3"> <button onclick="myFunction(this)" class="Information">Information</button>
+                            <div class="snackbar"><p>X-Devil is the original car of the import car X-Devil MK2</p><p>This car has got the same story as the other cars with import versions. Since there is another improved, cooler and fresher car, unfortunaly this car is not played so much</p></div></div>
+                        </div>
+                    
+                      	<a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
+                      	<a class="next3" onclick="plusSlides3(1)">&#10095;</a>
+					</div>
+                    
+                    
+                    <div style="text-align:center">
+                      <span class="dot3" onclick="currentSlide3(1)"></span> 
+                      <span class="dot3" onclick="currentSlide3(2)"></span> 
+                      <span class="dot3" onclick="currentSlide3(3)"></span>
+                      <span class="dot3" onclick="currentSlide3(4)"></span> 
+                      <span class="dot3" onclick="currentSlide3(5)"></span> 
+                      <span class="dot3" onclick="currentSlide3(6)"></span>
+                      <span class="dot3" onclick="currentSlide3(7)"></span> 
+                      <span class="dot3" onclick="currentSlide3(8)"></span> 
+                      <span class="dot3" onclick="currentSlide3(9)"></span>
+                      <span class="dot3" onclick="currentSlide3(10)"></span> 
+                      <span class="dot3" onclick="currentSlide3(11)"></span> 
+                      <span class="dot3" onclick="currentSlide3(12)"></span>  
+                      <span class="dot3" onclick="currentSlide3(13)"></span>  
+                    </div>
+                    <script>
+                        var slideIndex3 = 1;
+                        showSlides3(slideIndex3);
+
+                        function plusSlides3(n) {
+                        showSlides3(slideIndex3 += n);
+                        }
+
+                        function currentSlide3(n) {
+                          showSlides3(slideIndex3 = n);
+                        }
+
+                        function showSlides3(n) {
+                          var i;
+                          var slides3 = document.getElementsByClassName("mySlides3");
+                          var dots3 = document.getElementsByClassName("dot3");
+                          if (n > slides3.length) {slideIndex3 = 1} 
+                          if (n < 1) {slideIndex3 = slides3.length}
+                          for (i = 0; i < slides3.length; i++) {
+                              slides3[i].style.display = "none"; 
+                          }
+                          for (i = 0; i < dots3.length; i++) {
+                              dots3[i].className = dots3[i].className.replace(" active3", "");
+                          }
+                          slides3[slideIndex3-1].style.display = "block"; 
+                          dots3[slideIndex3-1].className += " active3";
+                        }
+					</script>
+                    
+                    <script>
+                        function myFunction(val) {
+                            var x = val.nextElementSibling;
+                            x.className += " show";
+                            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 10000);
+                        }
+                    </script>
+                </section>
+            </article>
+        </div>
+	</body>
+</html>

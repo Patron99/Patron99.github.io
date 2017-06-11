@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+	<head>
+    	<link href="Rocket.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<title>Rocket Cinema</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+        <div id="boxCinema">
+            <div id="mobilmeny">
+                <a href="#menu" id="toggle"><span></span></a>
+
+                <div id="menu">
+                  <ul>
+                    <li><a href="index.html">-Home</a></li>
+                    <li><a href="Rocket_League_Cinema.html">-Cinema</a></li>
+                    <li><a href="Rocket_League_Ranks.html">-Ranks</a></li>
+                    <li><a href="Rocket_League_Garage.html">-Garage</a></li>
+                    <li><a href="https://www.g2a.com/rocket-league-steam-cd-key-global.html" target="_blank">-Buy on G2A</a></li>
+                    <li><a href="http://store.steampowered.com/app/252950/" target="_blank">-Buy on Steam</a></li>
+                  </ul>
+                </div>
+                    <script>
+                        var theToggle = document.getElementById('toggle');
+
+                        // based on Todd Motto functions
+                        // https://toddmotto.com/labs/reusable-js/
+
+                        // hasClass
+                        function hasClass(elem, className) {
+                            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+                        }
+                        // addClass
+                        function addClass(elem, className) {
+                            if (!hasClass(elem, className)) {
+                                elem.className += ' ' + className;
+                            }
+                        }
+                        // removeClass
+                        function removeClass(elem, className) {
+                            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+                            if (hasClass(elem, className)) {
+                                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+                                    newClass = newClass.replace(' ' + className + ' ', ' ');
+                                }
+                                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+                            }
+                        }
+                        // toggleClass
+                        function toggleClass(elem, className) {
+                            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+                            if (hasClass(elem, className)) {
+                                while (newClass.indexOf(" " + className + " ") >= 0 ) {
+                                    newClass = newClass.replace( " " + className + " " , " " );
+                                }
+                                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+                            } else {
+                                elem.className += ' ' + className;
+                            }
+                        }
+
+                        theToggle.onclick = function() {
+                           toggleClass(this, 'on');
+                           return false;
+                        }
+                    </script>
+            </div>
+            <aside>
+          		<a href="index.html">
+          		    <div id="home_button"></div>
+                </a>
+                <a href="Rocket_League_Cinema.html">
+                    <div id="Cinema_button"></div>
+                </a>
+                <a href="Rocket_League_Ranks.html">
+                    <div id="Ranks_button"></div>
+                </a>
+                <a href="Rocket_League_Garage.html">
+                    <div id="Garage_button"></div>
+                </a>
+            </aside>
+            <nav>
+            	<a href="https://www.g2a.com/rocket-league-steam-cd-key-global.html" target="_blank">
+          		    <div id="G2a_button"></div>
+                </a>
+                <a href="http://store.steampowered.com/app/252950/" target="_blank">
+                    <div id="Steam_button"></div>
+                </a>
+            </nav>
+            <article class="CinemaArticle">
+            	<h1> Beginner Tips & Tricks </h1>
+                <iframe src="https://www.youtube.com/embed/3PNYRRz6ib4" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/IgI6tiYl2_A" allowfullscreen></iframe>
+                <h1> Cool Goals, Saves & More </h1>
+                <iframe src="https://www.youtube.com/embed/b5Nxl87vlig" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/k1KeJc8QMrU" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/0Lkostmf6hA" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/AtLlWNPSmpI" allowfullscreen></iframe>
+                <h1> Training </h1>
+                <iframe src="https://www.youtube.com/embed/O2B6joTeW88" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/kYfk6rmekqc" allowfullscreen></iframe>              
+            </article>
+        </div>
+	</body>
+</html>
